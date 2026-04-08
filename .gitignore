@@ -1,0 +1,18 @@
+# Java
+*.class
+*.log
+
+# Python
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Node (if used anywhere)
+node_modules/
