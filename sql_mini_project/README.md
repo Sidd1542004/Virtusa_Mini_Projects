@@ -1,6 +1,6 @@
-# 📚 Digital Library Audit System (SQL Mini Project)
+# Digital Library Audit System (SQL Mini Project)
 
-## 📌 Project Overview
+## Project Overview
 
 The **Digital Library Audit System** is a SQL-based mini project designed to manage and analyze library operations in a community college. It helps track book borrowings, identify overdue books, calculate penalties, and analyze book popularity.
 
@@ -8,7 +8,7 @@ This project demonstrates practical use of **relational database design, SQL que
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 * Design a structured relational database for library management
 * Track issued and returned books
@@ -18,7 +18,7 @@ This project demonstrates practical use of **relational database design, SQL que
 
 ---
 
-## 🗂️ Database Schema
+## Database Schema
 
 ### 1. **Books Table**
 
@@ -55,37 +55,37 @@ Tracks book borrowing records.
 
 ## ⚙️ Features Implemented
 
-### ✅ 1. Table Creation (DDL)
+### 1. Table Creation (DDL)
 
 * Created relational tables with primary and foreign keys
 * Ensured proper data organization
 
-### ✅ 2. Overdue Book Detection
+### 2. Overdue Book Detection
 
 * Identifies books not returned within **14 days**
 * Displays student name, book title, and overdue days
 
-### ✅ 3. Penalty Report
+### 3. Penalty Report
 
 * Calculates penalty based on overdue duration
 * Rule: ₹5 per day after 14 days
 
-### ✅ 4. Book Popularity Analysis
+### 4. Book Popularity Analysis
 
 * Uses `COUNT()` and `GROUP BY`
 * Finds most borrowed book categories
 
-### ✅ 5. Inactive Student Management
+### 5. Inactive Student Management
 
 * Marks students as **Inactive** if no borrowing in last 3 years
 
-### ✅ 6. View Creation
+### 6. View Creation
 
 * Created `OverdueReport` view for quick access to overdue data
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * **Database:** MySQL
 * **Tool:** MySQL Workbench
@@ -93,11 +93,11 @@ Tracks book borrowing records.
 
 ---
 
-## ▶️ How to Run the Project
+## How to Run the Project
 
 1. Open **MySQL Workbench**
 2. Copy and paste the provided `.sql` file
-3. Execute the script (⚡ Run All)
+3. Execute the script (Run All)
 4. Run SELECT queries to view:
 
    * Overdue books
@@ -106,16 +106,15 @@ Tracks book borrowing records.
 
 ---
 
-## 📊 Sample Queries Included
+## Sample Queries Included
 
 * Overdue book detection
 * Penalty calculation
 * Category-wise borrowing count
 * Inactive student identification
-
 ---
 
-## 🚀 Future Enhancements
+## Future Enhancements
 
 * Add **Triggers** for automatic fine calculation
 * Implement **Stored Procedures** for reports
@@ -125,7 +124,7 @@ Tracks book borrowing records.
 
 ---
 
-## 🎓 Learning Outcomes
+## Learning Outcomes
 
 * Understanding of relational database design
 * Hands-on experience with SQL queries and joins
@@ -134,13 +133,13 @@ Tracks book borrowing records.
 
 ---
 
-## 📌 Conclusion
+## Conclusion
 
 This project successfully demonstrates how SQL can be used to build a **functional and analytical library system**. It improves efficiency in tracking records, supports decision-making, and ensures better data management.
 
 ---
 
-## 🙌 Author
+## Author
 
 **Name:** (Siddharth V)
 **Course:** B.E. Computer Science and Engineering
