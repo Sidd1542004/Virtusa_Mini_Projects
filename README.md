@@ -78,7 +78,7 @@ Each project contains its own setup and execution steps.
 * Exposure to **multi-technology integration**
 
 ---
-## 🚀 Future Enhancements
+## Future Enhancements
 * Integration of all modules into a single platform
 * Web-based versions (MERN / Flask / Spring Boot)
 * Authentication & security improvements
@@ -86,7 +86,7 @@ Each project contains its own setup and execution steps.
 * Mobile application support
 ---
 
-## 👨‍💻 Author
+## Author
 Siddharth V
 B.E Computer Science and Engineering
 Passionate about Web Development, Databases & Secure Systems
